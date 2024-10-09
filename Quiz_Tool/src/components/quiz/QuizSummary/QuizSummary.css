@@ -1,0 +1,153 @@
+/* QuizSummary.css */
+
+.container {
+    width: 60%;
+    height: 60vh;
+    margin: 3rem auto 0 auto;
+    padding: 0.5rem 2rem;
+    background-color: #f8f8f8;
+    border: 5px solid #1da1f2;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 
+                0 3px 1px -2px rgba(0, 0, 0, 0.12), 
+                0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Success icon */
+.success-icon {
+    display:flex;
+    font-size: 10rem;
+    color: #57b846;
+    margin-bottom: -120px;
+    justify-content: center;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: -40px;
+}
+
+/* Heading styles */
+.container h1 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.container h4 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: red;
+}
+
+/* Statistics and details */
+.stat-left {
+    font-size: larger;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+/* Button container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.button-container ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.button-container li {
+    margin-right: 1rem;
+}
+
+.button-container .BacktoHome,
+.button-container .AttemptAgain,
+.button-container .Certificate {
+    background-color: #1da1f2;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button-container .BacktoHome:hover,
+.button-container .AttemptAgain:hover,
+.button-container .Certificate:hover {
+    background-color: #0a0094;
+}
+
+.score-modal {
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: auto;
+    transform: translate( 0%, 10%);
+    background-color: rgba(25, 25, 255, 0.582);
+    box-shadow: rgb(0, 0, 0);
+}
+
+.score-modal h2 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.score-modal p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+
+.close-button {
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.close-button:hover {
+    color: #db250d;
+}
+
+.ok-button {
+    background-color: #1da1f2;
+    color: #ffffff;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.ok-button:hover {
+    background-color: #0a0094;
+}
+
+.warning-icon {
+    font-size: '90px'; 
+    color: red;
+}
+

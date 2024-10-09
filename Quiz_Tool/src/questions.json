@@ -1,0 +1,163 @@
+
+[
+  {
+    "question": "What does GPT stand for in ChatGPT?",
+    "optionA": "General Programming Technology",
+    "optionB": "Generative Pre-trained Transformer",
+    "optionC": "General Purpose Tool",
+    "optionD": "Generic Processing Technique",
+    "answer": "Generative Pre-trained Transformer"
+  },
+  {
+    "question": "Who developed ChatGPT?",
+    "optionA": "Google",
+    "optionB": "Microsoft",
+    "optionC": "OpenAI",
+    "optionD": "IBM",
+    "answer": "OpenAI"
+  },
+  {
+    "question": "What is the primary function of ChatGPT?",
+    "optionA": "Image Recognition",
+    "optionB": "Text Generation",
+    "optionC": "Data Analysis",
+    "optionD": "Speech Synthesis",
+    "answer": "Text Generation"
+  },
+  {
+    "question": "What version of GPT is ChatGPT based on?",
+    "optionA": "GPT-1",
+    "optionB": "GPT-2",
+    "optionC": "GPT-3",
+    "optionD": "GPT-4",
+    "answer": "GPT-4"
+  },
+  {
+    "question": "In what year was ChatGPT first released?",
+    "optionA": "2018",
+    "optionB": "2019",
+    "optionC": "2020",
+    "optionD": "2021",
+    "answer": "2021"
+  },
+  {
+    "question": "What is the training methodology used for ChatGPT?",
+    "optionA": "Supervised Learning",
+    "optionB": "Reinforcement Learning",
+    "optionC": "Transfer Learning",
+    "optionD": "Unsupervised Learning",
+    "answer": "Unsupervised Learning"
+  },
+  {
+    "question": "Which of the following is a key characteristic of the transformer architecture used in GPT?",
+    "optionA": "Convolutional layers",
+    "optionB": "Recurrent layers",
+    "optionC": "Attention mechanisms",
+    "optionD": "Dropout layers",
+    "answer": "Attention mechanisms"
+  },
+  {
+    "question": "What is a primary advantage of using transformers over RNNs for text generation?",
+    "optionA": "Better handling of long-range dependencies",
+    "optionB": "Faster training times",
+    "optionC": "Simpler architecture",
+    "optionD": "Lower memory usage",
+    "answer": "Better handling of long-range dependencies"
+  },
+  {
+    "question": "How does ChatGPT handle the context of a conversation?",
+    "optionA": "By remembering previous conversations",
+    "optionB": "By using tokens from previous inputs",
+    "optionC": "By using external databases",
+    "optionD": "By using supervised annotations",
+    "answer": "By using tokens from previous inputs"
+  },
+  {
+    "question": "Which of the following best describes \"fine-tuning\" in the context of ChatGPT?",
+    "optionA": "Adjusting the model's architecture",
+    "optionB": "Training the model on specific data to specialize it",
+    "optionC": "Increasing the model's parameters",
+    "optionD": "Decreasing the training data size",
+    "answer": "Training the model on specific data to specialize it"
+  },
+  {
+    "question": "What is \"prompt engineering\" in the context of using ChatGPT?",
+    "optionA": "Modifying the model's code",
+    "optionB": "Crafting input prompts to guide the model’s responses",
+    "optionC": "Engineering new training data",
+    "optionD": "Creating new neural network layers",
+    "answer": "Crafting input prompts to guide the model’s responses"
+  },
+  {
+    "question": "Which programming language is primarily used to interact with ChatGPT via the OpenAI API?",
+    "optionA": "Python",
+    "optionB": "JavaScript",
+    "optionC": "Java",
+    "optionD": "C++",
+    "answer": "Python"
+  },
+  {
+    "question": "How can the quality of ChatGPT's responses be improved?",
+    "optionA": "By increasing the model’s parameters",
+    "optionB": "By providing clear and specific prompts",
+    "optionC": "By reducing the number of tokens used",
+    "optionD": "By using more complex language",
+    "answer": "By providing clear and specific prompts"
+  },
+  {
+    "question": "What is one common application of ChatGPT in customer service?",
+    "optionA": "Predicting customer behavior",
+    "optionB": "Automating responses to common queries",
+    "optionC": "Analyzing customer data",
+    "optionD": "Generating marketing reports",
+    "answer": "Automating responses to common queries"
+  },
+  {
+    "question": "What technique does ChatGPT use to generate coherent long-form text?",
+    "optionA": "Sequence-to-sequence learning",
+    "optionB": "Token-level prediction",
+    "optionC": "Text summarization",
+    "optionD": "Contextual embeddings",
+    "answer": "Token-level prediction"
+  },
+  {
+    "question": "Which of the following is a challenge when using ChatGPT for real-time applications?",
+    "optionA": "Slow response times",
+    "optionB": "High computational cost",
+    "optionC": "Inability to generate diverse text",
+    "optionD": "Limited training data",
+    "answer": "High computational cost"
+  },
+  {
+    "question": "What is \"temperature\" in the context of ChatGPT's text generation?",
+    "optionA": "A parameter that controls the randomness of the output",
+    "optionB": "The rate at which the model trains",
+    "optionC": "The accuracy of the model's predictions",
+    "optionD": "The speed of the model's responses",
+    "answer": "A parameter that controls the randomness of the output"
+  },
+  {
+    "question": "How does increasing the \"top-p\" parameter affect ChatGPT's output?",
+    "optionA": "It decreases the output diversity",
+    "optionB": "Limits output to top tokens by cumulative probability",
+    "optionC": "It makes the output more deterministic",
+    "optionD": "It increases the model's sensitivity to input variations",
+    "answer": "Limits output to top tokens by cumulative probability"
+  },
+  {
+    "question": "What is a potential ethical concern when using ChatGPT?",
+    "optionA": "High cost of training the model",
+    "optionB": "Generating biased or harmful content",
+    "optionC": "Inability to handle complex queries",
+    "optionD": "Slow response times",
+    "answer": "Generating biased or harmful content"
+  },
+  {
+    "question": "Which of the following methods can be used to mitigate biases in ChatGPT's responses?",
+    "optionA": "Reducing the size of the training dataset",
+    "optionB": "Implementing bias detection and correction algorithms",
+    "optionC": "Increasing the model's parameters",
+    "optionD": "Using simpler language in prompts",
+    "answer": "Implementing bias detection and correction algorithms"
+  }
+]

@@ -1,0 +1,111 @@
+.questions {
+    background-color: #f8f8f8;
+    border-left: 5px solid #1da1f2;
+    width: 80%;
+    margin: 3rem auto 0 auto;
+    padding: 0.5rem 2rem;
+
+    .lifeline-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -15px;
+    }
+
+    h2 {
+        text-align: center;
+        font-weight: lighter;
+        margin-top: 20px;
+    }
+
+    .lifeline {
+        position: relative;
+        top: -3px;   
+    }
+
+    .lifeline-icon {
+        color: #57b846;
+        cursor: pointer;
+    }
+
+    .lifeline-icon:hover {
+        background: none;
+        color: #ffa500;
+    }
+
+    h5 {
+        font-size: 1.2rem;
+        margin-bottom: 0rem;
+        margin-top: 3rem;
+        line-height: 1.5;
+        text-align: justify;
+    }
+
+    .options-container{
+        display: inline-block;
+        width: 50%;
+        margin-top: -10px;
+    }
+
+    .option {
+        background-color: #1da1f2;
+        border-radius: 30px;
+        color: #ffffff;
+        cursor: pointer;
+        margin: 2rem auto;
+        padding: 1rem;
+        transition: 0.3s linear all;
+        text-align: center;
+        width: 90%;  
+    }
+
+    .option:hover {
+        background-color: #0a0094;
+    }
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto 0.5rem auto;
+    padding: 2rem;
+    width: 80%;
+}
+
+.button-container button {
+    border: none;
+    color: #f8f8f8;
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+    margin-right: 2rem;
+    padding: 0.2rem 0.5rem;
+}
+
+.button-container button:first-child {
+    background-color: #1da1f2;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 14), 0 3px 1px -2px rgba(0, 0, 0, 12), 0 1px 5px 0 rgba(0, 0, 0, 2);
+    transition: 0.2s linear all;
+}
+
+.button-container button:first-child:hover {
+    background-color: #0a0094;
+}
+
+.button-container button:nth-child(2) {
+    background-color: #57b846; 
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 14), 0 3px 1px -2px rgba(0, 0, 0, 12), 0 1px 5px 0 rgba(0, 0, 0, 2);
+    transition: 0.2s linear all;
+}
+
+.button-container button:nth-child(2):hover {
+    background-color: #179b00;
+}
+
+.button-container button:nth-child(3) {
+    background-color: #ea4355;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 14), 0 3px 1px -2px rgba(0, 0, 0, 12), 0 1px 5px 0 rgba(0, 0, 0, 2);
+    transition: 0.2s linear all;
+}
+
+.button-container button:nth-child(3):hover {
+    background-color: #b90000;
+}

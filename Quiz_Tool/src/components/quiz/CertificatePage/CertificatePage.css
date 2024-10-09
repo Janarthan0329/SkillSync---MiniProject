@@ -1,0 +1,155 @@
+.Congratulations {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 90%;
+    margin: auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.congratulation-icon {
+    font-size: 120px; 
+    color: gold;
+    margin-top: -10px;
+  }
+  
+
+.Congratulations h1 {
+    color: #ff0000;
+    font-size: 38px;
+    margin-bottom: 10px;
+    margin-top: -90px;
+}
+
+.Congratulations p {
+    font-size: 18px;
+    margin: 10px 0;
+    font: bold;
+    color: #272727;
+}
+
+.Certificate {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 50%;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Certificate h2 {
+    color: #040029;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.Certificate p {
+    color: #464646;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.name-input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.claim-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.claim-button:hover {
+    background-color: #0056b3;
+}
+
+div {
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+}
+
+.certificate-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-width: 90%;
+    background: rgba(0, 0, 231, 0.801);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  .certificate-modal img {
+    width: 100%;
+    height: auto;
+    max-height: 70vh; /* Ensure it fits within the viewport height */
+    object-fit: contain;
+  }
+  
+
+.certificate-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.close-button {
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+
+.close-button:hover {
+    color: #ff1c1c;
+    background: none;
+}
+
+.generated-certificate {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.modal-button {
+    background-color: #2fff52;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.modal-button:hover {
+    background-color: #07c700;
+}
+

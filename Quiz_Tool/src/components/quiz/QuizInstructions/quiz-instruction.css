@@ -1,0 +1,98 @@
+/* QuizInstructions.css */
+h1 {
+    margin: 20px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.instruction-container {
+    border: 1px solid #1da1f2;
+    border-radius: 5px;
+    margin: 3rem;
+    padding: 3rem;
+    background-color: #d1d1d1;
+    color: #333;
+    width: 93%;
+    height: 100%;
+}
+
+.instruction-container h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+ 
+
+.browser-default {
+    list-style-type: none;
+    padding: 0;
+}
+
+.browser-default li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    list-style-type: disc;
+    text-align: left;
+}
+
+
+.instruction-container img {
+    width: 60%;
+    height: 50vh;
+    display: block;
+    margin: 1rem auto;
+    margin-bottom: 25px;
+}
+
+.hint-icon {
+    color: #57b846;
+}
+
+.lifeline-icon {
+    color: #57b846;
+}
+
+@media (max-width: 1024px) {
+    .instruction-container img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* QuizInstructions.css */
+
+/* Styles for the links container */
+.links-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-container .left,
+.links-container .right {
+    flex: 1;
+    text-align: center;
+}
+
+.links-container .left {
+    margin-right: 10px;
+}
+
+.links-container .right {
+    margin-left: 10px;
+}
+
+.links-container a {
+    color: #fff;
+    background-color: #1da1f2;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.links-container a:hover {
+    background-color: #0a75bc;
+}
+

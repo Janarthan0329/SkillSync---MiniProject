@@ -1,0 +1,109 @@
+#home {
+    background-image: url('../../assets/img/background-home1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+
+    section {
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 80%;
+        width: 30%;
+        margin-top: 60px;
+        margin-left: 130px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-radius: 50px;
+    }
+
+    .cube {
+        font-size: 8rem;
+        color: orange;
+    }
+
+    h1 {
+        text-align: center;
+        color: #f8f8f8;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-top: -80px;
+    }
+
+    .play-button-container {
+        width: 100%;
+        margin-top: 80px;
+        margin-bottom: -30px;
+    }
+
+    .play-button {
+        background-color: #57b846;
+        border-radius: 30px;
+        display: block;
+        cursor: pointer;
+        padding: 1rem;
+        color: #fff !important; 
+        text-align: center;
+        transition: 0.3s linear all;
+    }
+
+    .play-button:hover {
+        background-color: #179b00;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 14), 0 3px 1px -2px rgba(0, 0, 0, 12), 0 1px 5px 0 rgba(0, 0, 0, 2);
+    }
+
+    .auth-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3rem;
+    }
+
+    #login-button {
+        background-color: #ea4355;
+    }
+
+    #login-button:hover {
+        background-color: #b90000;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 14), 0 3px 1px -2px rgba(0, 0, 0, 12), 0 1px 5px 0 rgba(0, 0, 0, 2);
+    }
+
+    #signup-button {
+        background-color: #1da1f2;
+    }
+
+    #signup-button:hover {
+        background-color: #0a0094;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 14), 0 3px 1px -2px rgba(0, 0, 0, 12), 0 1px 5px 0 rgba(0, 0, 0, 2);
+    }
+
+    .auth-container .auth-buttons {
+        color: #fff;
+        cursor: pointer;
+        border-radius: 30px;
+        padding: 1rem 0;
+        text-align: center;
+        width: 45%;
+        transition: 0.3s linear all;
+    }
+}
+
+@media (max-width: 480px) {
+    .cube {
+        font-size: 3rem;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .play-button {
+        font-size: 0.9rem;
+        padding: 0.4rem;
+    }
+
+    .auth-container .auth-buttons {
+        font-size: 0.9rem;
+        padding: 0.4rem;
+    }
+}

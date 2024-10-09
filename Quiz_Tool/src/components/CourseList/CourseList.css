@@ -1,0 +1,7 @@
+/* src/components/CourseList.css */
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+  

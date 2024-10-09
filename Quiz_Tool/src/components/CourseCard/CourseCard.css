@@ -1,0 +1,58 @@
+/* src/components/CourseCard.css */
+.course-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+    margin: 10px;
+    position: relative;
+}
+
+.course-card .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    font-size: 0.8em;
+    border-radius: 5px;
+}
+
+.course-card .top-faculty {
+    background-color: red;
+}
+
+.course-card img.course-image {
+    width: 100%;
+    height: 120px;
+    
+    object-fit: cover;
+}
+
+.course-card .course-info {
+    padding: 10px;
+    text-align: left;
+}
+
+.course-card .course-info h3 {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.course-card .course-info p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.course-card .enroll-link {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.course-card .enroll-link:hover {
+    color: rgb(0, 255, 21);
+}

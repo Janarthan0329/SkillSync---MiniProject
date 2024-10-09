@@ -1,0 +1,131 @@
+.main-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.filter-menu {
+    flex: 1;
+    max-width: 300px;
+    height: auto;
+    padding: 20px;
+    background-color: #f1f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-menu h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.filter-menu h2 i {
+    color: #007bff;
+    margin-right: 8px;
+}
+
+.filter-options {
+    margin-bottom: 30px;
+}
+
+.filter-options label {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    margin-bottom: -10px;
+    cursor: pointer; 
+    color: black;
+    border: #0056b3 1px solid;
+    border-radius: 5px;
+    padding: auto;
+    padding-left: 8px;
+}
+
+.filter-options label:hover {
+    background-color: #b9eff8;
+}
+
+.filter-options span {
+    margin-bottom: 10px;
+}
+
+.filter-options i {
+    color: #007bff;
+    margin-right: 8px;
+    margin-left: 15px;
+}
+
+.filter-options input[type="checkbox"] {
+    display: none;
+}
+
+/* Styling for active state */
+.filter-options label.active {
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.filter-options label.active i {
+    color: #ffffff;
+}
+
+.content {
+    flex: 3;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.course-item {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.course-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.course-item h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.course-item p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.course-item a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.course-item a:hover {
+    background-color: #0056b3;
+}
